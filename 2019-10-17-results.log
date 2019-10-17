@@ -1,0 +1,124 @@
+2019-10-17 18:50:04 [clientTest.js] warn: this is addAndValidateClientTest
+2019-10-17 18:50:12 [clientTest.js] info: Send Keys to element with id = firstName 
+2019-10-17 18:50:13 [clientTest.js] info: Send Keys to element with id = lastName 
+2019-10-17 18:50:13 [clientTest.js] info: Send Keys to element with id = country 
+2019-10-17 18:50:13 [clientTest.js] info: Send Keys to element with css = input[id='owner'] 
+2019-10-17 18:50:13 [clientTest.js] info: Send Keys to element with css = #email 
+2019-10-17 18:50:14 [clientTest.js] info: Clicked on element with css = #root > div > div.actions-container > div.add-client-container > div:nth-child(2) > input
+2019-10-17 18:50:18 [clientTest.js] info: Send Keys to element with xpath = //*[@id="root"]/div/div[4]/div[1]/input 
+2019-10-17 18:50:18 [clientTest.js] info: true
+
+2019-10-17 18:51:35 [clientTest.js] warn: this is deleteAndValidateClientTest
+2019-10-17 18:51:48 [clientTest.js] info: Send Keys to element with xpath = //*[@id="root"]/div/div[4]/div[1]/input 
+2019-10-17 18:51:48 [clientTest.js] info: Clicked on element with css = #root > div > div.clients-component > table > tr.clientDetails
+2019-10-17 18:51:49 [clientTest.js] info: Clicked on element with css = #root > div > div.clients-component > div.details-pop-up-container > div > div.update-pop-up-btn > input.delete-client-popup-btn
+2019-10-17 18:51:54 [clientTest.js] info: false
+
+2019-10-17 18:53:05 [clientTest.js] warn: this is clickRightArrowTest
+2019-10-17 18:53:16 [clientTest.js] info: Get text from element with css = #root > div > div.clients-component > div.page-numbers > span:nth-child(2) 
+2019-10-17 18:53:16 [clientTest.js] info: 1
+2019-10-17 18:53:17 [clientTest.js] info: Clicked on element with css = #root > div > div.clients-component > div.page-numbers > img:nth-child(5)
+2019-10-17 18:53:17 [clientTest.js] info: Get text from element with css = #root > div > div.clients-component > div.page-numbers > span:nth-child(2) 
+2019-10-17 18:53:17 [clientTest.js] info: 2
+
+2019-10-17 18:55:30 [clientTest.js] warn: this is addAndValidateClientTest
+2019-10-17 18:55:39 [clientTest.js] info: Send Keys to element with id = firstName 
+2019-10-17 18:55:40 [clientTest.js] info: Send Keys to element with id = lastName 
+2019-10-17 18:55:40 [clientTest.js] info: Send Keys to element with id = country 
+2019-10-17 18:55:41 [clientTest.js] info: Send Keys to element with css = input[id='owner'] 
+2019-10-17 18:55:41 [clientTest.js] info: Send Keys to element with css = #email 
+2019-10-17 18:55:41 [clientTest.js] info: Clicked on element with css = #root > div > div.actions-container > div.add-client-container > div:nth-child(2) > input
+2019-10-17 18:55:44 [clientTest.js] info: Send Keys to element with xpath = //*[@id="root"]/div/div[4]/div[1]/input 
+2019-10-17 18:55:44 [clientTest.js] info: true
+
+2019-10-17 18:58:01 [actionTest.js] warn: this is changeAndValidateClientByOwner test
+2019-10-17 18:58:13 [actionTest.js] info: Send Keys to element with css = #root > div > div.actions-container > div.update-container > table > div > input 
+2019-10-17 18:58:14 [actionTest.js] info: Send Keys to element with css = #root > div > div.actions-container > div.update-container > table > table > tr.change-owner > th:nth-child(2) > input 
+2019-10-17 18:58:15 [actionTest.js] info: Clicked on element with css = #root > div > div.actions-container > div.update-container > table > table > tr.change-owner > th:nth-child(3) > input[type=button]
+2019-10-17 18:58:21 [actionTest.js] info: Send Keys to element with xpath = //*[@id="root"]/div/div[4]/div[1]/input 
+2019-10-17 18:58:22 [actionTest.js] info: Get text from element with css = #root > div > div.clients-component > table > tr.clientDetails > th:nth-child(5) 
+2019-10-17 18:58:22 [actionTest.js] info: Hull Conrad
+
+2019-10-17 18:59:55 [actionTest.js] warn: this is changeAndValidateMailType test
+2019-10-17 19:00:07 [actionTest.js] info: Send Keys to element with css = #root > div > div.actions-container > div.update-container > table > div > input 
+2019-10-17 19:00:07 [actionTest.js] info: Send Keys to element with css = #change-email-type > th:nth-child(2) > input 
+2019-10-17 19:00:08 [actionTest.js] info: Clicked on element with css = #change-email-type > th:nth-child(3) > input[type=button]
+2019-10-17 19:00:11 [actionTest.js] info: Send Keys to element with xpath = //*[@id="root"]/div/div[4]/div[1]/input 
+2019-10-17 19:00:12 [actionTest.js] info: Get text from element with css = #root > div > div.clients-component > table > tr:nth-child(2) > th:nth-child(8) 
+2019-10-17 19:00:13 [actionTest.js] info: A
+
+2019-10-17 19:02:04 [actionTest.js] warn: this is soldEmptyTest
+2019-10-17 19:02:13 [actionTest.js] info: Clicked on element with css = #root > div > div.actions-container > div.update-container > table > table > tr.change-sold > th:nth-child(2) > input[type=button]
+2019-10-17 19:02:13 [actionTest.js] info: Get text from element with className = error-pop-up 
+2019-10-17 19:02:13 [actionTest.js] info: SOME DETAILS ARE MISSING
+2019-10-17 19:05:23 [actionTest.js] warn: this is soldEmptyTest
+2019-10-17 19:05:33 [actionTest.js] info: Clicked on element with css = #root > div > div.actions-container > div.update-container > table > table > tr.change-sold > th:nth-child(2) > input[type=button]
+2019-10-17 19:05:33 [actionTest.js] info: Get text from element with className = error-pop-up 
+2019-10-17 19:05:33 [actionTest.js] info: SOME DETAILS ARE MISSING
+
+2019-10-17 19:06:11 [clientTest.js] warn: this is deleteAndValidateClientTest
+2019-10-17 19:06:24 [clientTest.js] info: Send Keys to element with xpath = //*[@id="root"]/div/div[4]/div[1]/input 
+2019-10-17 19:06:24 [clientTest.js] info: Clicked on element with css = #root > div > div.clients-component > table > tr.clientDetails
+2019-10-17 19:06:24 [clientTest.js] info: Clicked on element with css = #root > div > div.clients-component > div.details-pop-up-container > div > div.update-pop-up-btn > input.delete-client-popup-btn
+2019-10-17 19:06:29 [clientTest.js] info: false
+
+2019-10-17 19:06:51 [clientTest.js] warn: this is addAndValidateClientTest
+2019-10-17 19:07:00 [clientTest.js] info: Send Keys to element with id = firstName 
+2019-10-17 19:07:00 [clientTest.js] info: Send Keys to element with id = lastName 
+2019-10-17 19:07:00 [clientTest.js] info: Send Keys to element with id = country 
+2019-10-17 19:07:01 [clientTest.js] info: Send Keys to element with css = input[id='owner'] 
+2019-10-17 19:07:01 [clientTest.js] info: Send Keys to element with css = #email 
+2019-10-17 19:07:01 [clientTest.js] info: Clicked on element with css = #root > div > div.actions-container > div.add-client-container > div:nth-child(2) > input
+2019-10-17 19:07:07 [clientTest.js] info: Send Keys to element with xpath = //*[@id="root"]/div/div[4]/div[1]/input 
+2019-10-17 19:07:07 [clientTest.js] info: true
+
+2019-10-17 19:47:54 [analyticsTest.js] warn: this is stabilityTest
+2019-10-17 19:48:05 [analyticsTest.js] info: done 0
+2019-10-17 19:48:05 [analyticsTest.js] info: done 1
+2019-10-17 19:48:06 [analyticsTest.js] info: done 2
+2019-10-17 19:48:07 [analyticsTest.js] info: done 3
+2019-10-17 19:48:07 [analyticsTest.js] info: done 4
+2019-10-17 19:48:08 [analyticsTest.js] info: done 5
+2019-10-17 19:48:08 [analyticsTest.js] info: done 6
+2019-10-17 19:48:09 [analyticsTest.js] info: done 7
+2019-10-17 19:48:10 [analyticsTest.js] info: done 8
+2019-10-17 19:48:11 [analyticsTest.js] info: done 9
+2019-10-17 19:48:11 [analyticsTest.js] info: done 10
+
+2019-10-17 19:53:34 [analyticsTest.js] warn: this is changeMailTypeAndCheck test
+2019-10-17 19:53:34 [analyticsTest.js] warn: count to 3
+2019-10-17 19:53:45 [analyticsTest.js] info: Get text from element with css = #root > div > div.analytics > div.badges > div:nth-child(2) > div.badge-val 
+2019-10-17 19:53:45 [analyticsTest.js] info: 0
+2019-10-17 19:53:45 [analyticsTest.js] info: Send Keys to element with css = #root > div > div.actions-container > div.update-container > table > div > input 
+2019-10-17 19:53:46 [analyticsTest.js] info: Send Keys to element with css = #change-email-type > th:nth-child(2) > input 
+2019-10-17 19:53:46 [analyticsTest.js] info: Clicked on element with css = #change-email-type > th:nth-child(3) > input[type=button]
+2019-10-17 19:53:46 [analyticsTest.js] info: Get text from element with css = #root > div > div.analytics > div.badges > div:nth-child(2) > div.badge-val 
+2019-10-17 19:53:46 [analyticsTest.js] info: 0
+
+2019-10-17 20:08:51 [analyticsTest.js] warn: this is changeMailTypeAndCheck test
+2019-10-17 20:09:00 [analyticsTest.js] info: Get text from element with css = #root > div > div.analytics > div.badges > div:nth-child(2) > div.badge-val 
+2019-10-17 20:09:01 [analyticsTest.js] info: 425
+2019-10-17 20:09:02 [analyticsTest.js] info: Send Keys to element with css = #root > div > div.actions-container > div.update-container > table > div > input 
+2019-10-17 20:09:03 [analyticsTest.js] info: Send Keys to element with css = #change-email-type > th:nth-child(2) > input 
+2019-10-17 20:09:03 [analyticsTest.js] info: Clicked on element with css = #change-email-type > th:nth-child(3) > input[type=button]
+2019-10-17 20:09:04 [analyticsTest.js] info: Get text from element with css = #root > div > div.analytics > div.badges > div:nth-child(2) > div.badge-val 
+2019-10-17 20:09:04 [analyticsTest.js] info: 426
+2019-10-17 20:09:05 [analyticsTest.js] warn: count to 5, it's timer
+
+2019-10-17 20:16:40 [analyticsTest.js] warn: this is changeMailTypeAndCheck test
+2019-10-17 20:16:52 [analyticsTest.js] info: Get text from element with css = #root > div > div.analytics > div.badges > div:nth-child(2) > div.badge-val 
+2019-10-17 20:16:54 [analyticsTest.js] info: 425
+2019-10-17 20:17:03 [analyticsTest.js] info: Send Keys to element with css = #root > div > div.actions-container > div.update-container > table > div > input 
+2019-10-17 20:17:03 [analyticsTest.js] info: Send Keys to element with css = #change-email-type > th:nth-child(2) > input 
+2019-10-17 20:17:03 [analyticsTest.js] info: Clicked on element with css = #change-email-type > th:nth-child(3) > input[type=button]
+2019-10-17 20:17:04 [analyticsTest.js] info: Get text from element with css = #root > div > div.analytics > div.badges > div:nth-child(2) > div.badge-val 
+2019-10-17 20:17:06 [analyticsTest.js] info: 426
+
+2019-10-17 20:17:41 [analyticsTest.js] warn: this is changeSoldAndCheck test
+2019-10-17 20:17:50 [analyticsTest.js] info: Get text from element with css = #root > div > div.analytics > div.badges > div:nth-child(3) > div.badge-val 
+2019-10-17 20:17:52 [analyticsTest.js] info: 347
+2019-10-17 20:17:56 [analyticsTest.js] info: Send Keys to element with css = #root > div > div.actions-container > div.update-container > table > div > input 
+2019-10-17 20:17:56 [analyticsTest.js] info: Clicked on element with css = #root > div > div.actions-container > div.update-container > table > table > tr.change-sold > th:nth-child(2) > input[type=button]
+2019-10-17 20:18:02 [analyticsTest.js] warn: count to 5, it's timer
+2019-10-17 20:18:02 [analyticsTest.js] info: Get text from element with css = #root > div > div.analytics > div.badges > div:nth-child(3) > div.badge-val 
+2019-10-17 20:18:04 [analyticsTest.js] info: 346

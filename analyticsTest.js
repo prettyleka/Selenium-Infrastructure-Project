@@ -3,6 +3,7 @@ const ClientsPage = require("./ClientsPage")
 const ActionsPage = require("./ActionsPage")
 const HomePage = require("./HomePage")
 const AnalyticsPage = require("./AnalyticsPage")
+const logger = require("./logger")
 
 class AnalyticsPageTest {
     constructor() {
@@ -13,34 +14,42 @@ class AnalyticsPageTest {
         this.analyticsPage = new AnalyticsPage(this.testSelenium)
     }
 
-    async changeMailTypeAndCheck(){
+    // Takes a number from email counter, change mail type and check if the number was changed
+    async changeMailTypeAndCheck() {
         await this.analyticsPage.navigateToAnalyticsPage()
         await this.analyticsPage.emailCounter()
         await this.actionsPage.navigateToActionsPage()
         await this.actionsPage.cahgeMailType("Val Basov")
         await this.analyticsPage.navigateToAnalyticsPage()
-        setTimeout(()=>{
-            console.log("count to 5")
-        this.analyticsPage.checkEmailCounter()}, 5000)
+        await this.analyticsPage.checkEmailCounter()
+
     }
 
-    async changeSoldAndCheck(){
+    // Takes a number of sold positions,change sold position and check if the number was changed
+    async changeSoldAndCheck() {
         await this.analyticsPage.navigateToAnalyticsPage()
-        await this.analyticsPage.soldPositionNumber()
+        await this.analyticsPage.checkSoldNumber()
         await this.actionsPage.navigateToActionsPage()
         await this.analyticsPage.changePosition("Val Basov")
         await this.analyticsPage.navigateToAnalyticsPage()
-        setTimeout(()=>{
-            console.log("count to 5")
-        this.analyticsPage.checkSoldNumber()}, 5000)
+        setTimeout(() => {
+            logger.warn("count to 5, it's timer")
+            this.analyticsPage.checkSoldNumber()
+        }, 5000)
     }
 
-    async stabilityTest(){
-        for(let i=0; i<=10; i++){
-        await this.analyticsPage.navigateToAnalyticsPage()
-        console.log("done " + i)}
+
+    //Check if the site is able to uploads 10 times in row 
+    async stabilityTest() {
+        for (let i = 0; i <= 10; i++) {
+            await this.analyticsPage.navigateToAnalyticsPage()
+            logger.info("done " + i)
+        }
     }
 }
 
 let analyticsPageTest = new AnalyticsPageTest();
-analyticsPageTest.stabilityTest()
+analyticsPageTest.changeSoldAndCheck()
+logger.warn("this is changeSoldAndCheck test")
+// analyticsPageTest.stabilityTest()
+// logger.warn("this is stabilityTest")
